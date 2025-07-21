@@ -1,0 +1,1292 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  
+}
+
+/* main-start */
+p {
+  font-family: "Roboto", sans-serif;
+}
+button {
+  font-family: "Roboto", sans-serif; 
+}
+ h1 {
+ font-size: 45px;
+
+
+ }
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+h5{
+  font-family: "Oswald", sans-serif;
+}
+h4{
+  font-family: "Oswald", sans-serif;
+}
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+
+
+.navbar {
+  top: 8px;
+  border-radius: 30px;
+  border: #198754 1px solid;
+  padding: 0px;
+}
+
+.sec-head h3 {
+  
+  z-index: 15;
+}
+.sec-head-child {
+  width: fit-content;
+}
+
+.sec-head i {
+  position: absolute;
+  font-size: 80px;
+  top: -25%;
+  left: 18%;
+  color: #1987544a;
+  
+}
+
+.navbar-nav .nav-link {
+color: #198754;
+}
+.navbar-nav .nav-link.active {
+color: #000000;
+}
+
+.navbar-toggler{
+  color: black;
+  border: 1px solid black;
+}
+
+.logoinsec1 {
+  width: 200px;
+}
+.logoinsec {
+  width: 150px;
+}
+
+/* main -end */
+/* nav-start */
+nav {
+  background-color: white;
+  
+}
+nav .logoimg {
+  width: 60px;
+}
+nav li {
+  font-family: "Overpass", sans-serif;
+  
+}
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 .25rem #19875462;
+}
+/* nav-end */
+/* home-start */
+#home {
+  height: 90vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/backgr.webp);
+    background-position: center;
+    background-attachment :fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+#home .homeimg {
+  width: 30px;
+}
+
+#home .homeimg2 {
+  width: 30px;
+  transform: rotateY(180deg);
+}
+
+.shadow__btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(20, 169, 0);
+  box-shadow: 0 0 25px rgb(20, 169, 0);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(20, 169, 0),
+              0 0 25px rgb(20, 169, 0),
+              0 0 50px rgb(20, 169, 0),
+              0 0 100px rgb(20, 169, 0);
+}
+
+
+/* home -end */
+
+/* about-start */
+#about {
+  padding: 40px 0px 70px;
+  position: relative;
+}
+
+#about::after {
+  content: "";
+  
+  background-image: url(../img/branch1.webp);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+ 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#about::before {
+  content: "";
+  
+  background-image: url(../img/branch2.webp);
+  width: 220px;
+  height: 200px;
+  background-size: cover;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#about .about-inner {
+  background-color: rgb(233, 233, 233);
+  padding:25px 25px;
+  border: 1px solid #198754;
+}
+
+
+/* about-end */
+
+#services {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/abstract-green-leaf-texture-nature-background-tropical-leaf-green-leaf_512343-1216.webp);
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding: 40px 0px;
+  border-radius: 30px;
+}
+
+#services .sec-head i {
+  position: absolute;
+  font-size: 80px;
+  top: -25%;
+  left: 18%;
+  color: #ffffff4a;
+  
+}
+
+
+#services .card-body {
+  padding: 70px 20px;
+  
+}
+#services .card {
+ margin-bottom: 10px; 
+ background-color: rgba(0, 0, 0, 0.575);
+ box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+
+#services .card-body p {
+  color: #ffffff;
+  word-spacing: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+#services .card-body h6 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+#services .card-body .card-ico {
+  width: 70px;
+  font-size: 25px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  color: black;
+  transition: 0.5s 0.1s all;
+
+}
+
+#services .card-body:hover .card-ico {
+  background-color: black;
+  color: white;
+
+}
+
+
+/* service-end */
+
+/* product-start */
+
+#product {
+  padding: 40px 0px 70px;
+  position: relative;
+}
+
+
+
+#product::after {
+  content: "";
+  
+  background-image: url(../img/branch1.webp);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+ 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#product::before {
+  content: "";
+  
+  background-image: url(../img/branch2.webp);
+  width: 220px;
+  height: 200px;
+  background-size: cover;
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* fruits-start */
+
+#fruits{
+  padding: 15px;
+ border: #000000 solid 1px ;
+  border-radius: 10px; 
+  margin-bottom: 30px;
+}
+
+
+
+.col1 {
+  margin-bottom:70px ;
+}
+   
+
+
+
+
+#fruits  .mango {
+  position: absolute;
+  top: -47px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+
+
+
+#fruits  .strwaberry img {
+  position: absolute;
+  top: -75px;
+  left: 36%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 115px;
+}
+
+#fruits  .strwaberry  h4 {
+  color: rgb(211, 0, 0);
+
+}
+#fruits  .strwaberry{
+  border: 1px solid  rgb(211, 0, 0); ;
+}
+
+#fruits  .strwaberry button {
+  background-color:  rgb(211, 0, 0);
+  color: black  ;
+}
+
+#fruits  .strwaberry button:hover {
+  background-color:  rgb(170, 0, 0);
+ 
+}
+
+
+
+
+#fruits  .freezedstrwaberry img {
+  position: absolute;
+  top: -75px;
+  left: 36%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 115px;
+}
+
+#fruits  .freezedstrwaberry  h4 {
+  color: rgb(146, 146, 146);
+
+}
+#fruits  .freezedstrwaberry{
+  border: 1px solid  rgb(146, 146, 146) ;
+}
+
+#fruits  .freezedstrwaberry button {
+  background-color:  rgb(146, 146, 146);
+  color: black  ;
+}
+
+#fruits  .freezedstrwaberry button:hover {
+  background-color:  rgb(117, 117, 117);;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+#fruits  .orange img {
+  position: absolute;
+  top: -70px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 150px;
+}
+
+#fruits  .orange  h4 {
+  color: orange;
+
+}
+#fruits  .orange{
+  border: 1px solid orange; ;
+}
+
+#fruits  .orange button {
+  background-color: orange;
+  color: black  ;
+}
+
+#fruits  .orange button:hover {
+  background-color: rgb(228, 150, 4);
+ 
+}
+
+
+
+
+#fruits .head-fruits {
+ margin-bottom: 50px;
+}
+
+#fruits .head-fruits a i {
+  color: black;
+  transition: 0s 0.1s all;
+ }
+
+ #fruits .head-fruits a:hover i {
+  color: white;
+ }
+.card-body .card-title {
+  margin-top: 60px;
+}
+
+#fruits .row {
+  margin-top: 70px;
+}
+
+#fruits .fruits-des {
+  margin-bottom: 50px;
+}
+
+/* fruitspage */
+#fruitsproduct {
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+
+.row .card-1
+{
+  margin-bottom: 80px;
+}
+
+
+
+
+/* fruits-end */
+
+/* vegetablepage */
+
+#vegetablespro {
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+
+.row .card-1
+{
+  margin-bottom: 80px;
+}
+
+/* vegetablepage */
+
+
+/* vegetable-start */
+
+#vegetables {
+  background-color: #f4f4f4;
+  padding: 15px;
+ border: #000000 solid 1px ;
+  border-radius: 10px;
+}
+#vegetables .row {
+  margin-top: 100px;
+}
+
+#vegetables .card {
+  background-color: transparent;
+}
+
+
+#vegetables  .sweetpotatoes img {
+  position: absolute;
+  top: -70px;
+  left: 28%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 150px;
+}
+
+#vegetables  .sweetpotatoes  h4 {
+  color: #ff7a0f;
+
+}
+#vegetables  .sweetpotatoes{
+  border: 1px solid #ff7a0f ;
+}
+
+#vegetables  .sweetpotatoes button {
+  background-color: #ff7a0f;
+  color: black  ;
+}
+
+#vegetables  .sweetpotatoes button:hover {
+  background-color:#de6400;
+ 
+}
+
+
+#vegetables  .potato img {
+  position: absolute;
+  top: -50px;
+  left: 27%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 140px;
+}
+
+#vegetables  .potato  h4 {
+  color: #d67317;
+
+}
+#vegetables  .potato{
+  border: 1px solid #d67317 ;
+}
+
+#vegetables  .potato button {
+  background-color: #d67317;
+  color: black  ;
+}
+
+#vegetables  .potato button:hover {
+  background-color:rgb(195, 108, 27);
+ 
+}
+
+#vegetables  .redonion img {
+  position: absolute;
+  top: -78px;
+  left: 31%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+
+#vegetables  .redonion  h4 {
+  color: #d80528;
+
+}
+#vegetables  .redonion{
+  border: 1px solid #d80528 ;
+}
+
+#vegetables  .redonion button {
+  background-color: #d80528;
+  color: black  ;
+}
+
+#vegetables  .redonion button:hover {
+  background-color:#9f001b;
+ 
+}
+
+
+#vegetables  .brownonion img {
+  position: absolute;
+  top: -85px;
+  left: 27%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+
+#vegetables  .brownonion  h4 {
+  color: #ec811c;
+
+}
+#vegetables  .brownonion{
+  border: 1px solid #ec811c ;
+}
+
+#vegetables  .brownonion button {
+  background-color: #ec811c;
+  color: black  ;
+}
+
+#vegetables  .brownonion button:hover {
+  background-color:rgb(195, 108, 27);
+ 
+}
+
+#vegetables  .garlic img {
+  position: absolute;
+  top: -55px;
+  left: 30%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+
+#vegetables  .garlic  h4 {
+  color: rgb(122, 122, 122);
+
+}
+#vegetables  .garlic{
+  border: 1px solid rgb(122, 122, 122) ;
+}
+
+#vegetables  .garlic button {
+  background-color: rgb(122, 122, 122);
+  color: black  ;
+}
+
+#vegetables  .garlic button:hover {
+  background-color:rgb(109, 109, 109);
+ 
+}
+
+
+
+
+#vegetables  .Pumpkin img {
+  position: absolute;
+  top: -55px;
+  left: 30%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 120px;
+}
+
+#vegetables  .Pumpkin  h4 {
+  color: rgb(255, 136, 0);
+
+}
+#vegetables  .Pumpkin{
+  border: 1px solid rgb(255, 136, 0) ;
+}
+
+#vegetables  .Pumpkin button {
+  background-color: rgb(255, 136, 0);
+  color: black  ;
+}
+
+#vegetables  .Pumpkin button:hover {
+  background-color:rgb(203, 108, 0);
+ 
+}
+
+
+
+
+#vegetables  .ButternutPumpkin img {
+  position: absolute;
+  top: -57px;
+  left: 38%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 80px;
+}
+
+#vegetables  .ButternutPumpkin  h4 {
+  color: #fabb55;
+
+}
+#vegetables  .ButternutPumpkin{
+  border: 1px solid #fabb55; ;
+}
+
+#vegetables  .ButternutPumpkin button {
+  background-color: #fabb55;;
+  color: black  ;
+}
+
+#vegetables  .ButternutPumpkin button:hover {
+  background-color:#f5a524;;
+ 
+}
+
+
+
+
+
+
+.contact-fixed {
+ position: fixed;
+  bottom: 70px;
+  right: 50px;
+  z-index: 33333;
+}
+.cssbuttons-io-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  font-weight: 500;
+ 
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 167, 62, 1) 0%,
+    rgba(102, 247, 113, 1) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  
+  border-radius: 50%;
+}
+
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+
+#contact {
+  padding: 50px 0px;
+  background-image: url(../img/all-white-folded-paper-strips-background-m3suujs4ekgv932g.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+#contact .sec-head i {
+  position: absolute;
+  font-size: 80px;
+  top: -25%;
+  left: 18%;
+  color: #0000004a;
+  
+}
+/* card1 */
+#contact .e-card {
+  margin: 40px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 100%;
+  height:400px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s 0.1s all;
+  
+}
+#contact .e-card:hover {
+  box-shadow: 0px 0px 15px 5px #00000077;
+  transform: scale(1.05);
+}
+#contact .wave {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#50ff40,#027300 60%,#00ddeb);
+}
+
+#contact .infotop .icon {
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+#contact .infotop {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 25% ;
+  left: 0;
+  right: 0;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#contact .infotop i {
+  font-size: 60px;
+}
+
+#contact .name {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  
+}
+
+#contact .wave:nth-child(2),
+#contact .wave:nth-child(3) {
+  top: 210px;
+}
+
+#contact .playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+#contact .wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+#contact .playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+#contact .wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+#contact .playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+#contact.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* card1 */
+
+/* card2 */
+
+#contact .e-card2 {
+  margin: 40px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 100%;
+  height:400px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s 0.1s all;
+  
+}
+#contact .e-card2:hover {
+  box-shadow: 0px 0px 15px 5px #00000077;
+  transform: scale(1.05);
+}
+
+#contact .wave2 {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#8e8e8e ,#555555 60%,#1f1f1f);
+}
+
+#contact .infotop2 .icon2 {
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+#contact .infotop2 {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 25% ;
+  left: 0;
+  right: 0;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#contact .infotop2 i {
+  font-size: 55px;
+}
+
+#contact .name2 {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  
+}
+
+#contact .wave2:nth-child(2),
+#contact .wave2:nth-child(3) {
+  top: 210px;
+}
+
+#contact .playing2 .wave2 {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+#contact .wave2 {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+#contact .playing2 .wave2:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+#contact .wave2:nth-child(2) {
+  animation-duration: 50s;
+}
+
+#contact .playing2 .wave2:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+#contact .wave2:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* card2 */
+
+
+/* card3 */
+
+
+#contact .e-card3 {
+  margin: 40px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 100%;
+  height:400px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s 0.1s all;
+  
+}
+#contact .e-card3:hover {
+  box-shadow: 0px 0px 15px 5px #00000077;
+  transform: scale(1.05);
+}
+#contact .wave3 {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#0014ac,#2e24e9 60%,#00ddeb);
+}
+
+#contact .infotop3 .icon3 {
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+#contact .infotop3 {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 25% ;
+  left: 0;
+  right: 0;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#contact .infotop3 i {
+  font-size: 45px;
+}
+
+#contact .name3 {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  
+}
+
+#contact .wave3:nth-child(2),
+#contact .wave3:nth-child(3) {
+  top: 210px;
+}
+
+#contact .playing3 .wave3 {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+#contact .wave3 {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+#contact .playing3 .wave3:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+#contact .wave3:nth-child(2) {
+  animation-duration: 50s;
+}
+
+#contact .playing3 .wave3:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+#contact .wave3:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* card -3  */
+
+
+ /* card - 4 */ 
+
+
+#contact .e-card4 {
+  margin: 40px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+  position: relative;
+  width: 100%;
+  height:400px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: 0.3s 0.1s all;
+  
+}
+#contact .e-card4:hover {
+  box-shadow: 0px 0px 15px 5px #00000077;
+  transform: scale(1.05);
+}
+#contact .wave4 {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg,#007c78,#007dc5 60%,#00595f);
+}
+
+#contact .infotop3 .icon4 {
+  width: 3em;
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+
+#contact .infotop4 {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  top: 25% ;
+  left: 0;
+  right: 0;
+  
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+#contact .infotop4 i {
+  font-size: 45px;
+}
+
+#contact .name4 {
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  top: 1em;
+  
+}
+
+#contact .wave4:nth-child(2),
+#contact .wave4:nth-child(3) {
+  top: 210px;
+}
+
+#contact .playing4 .wave4 {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+#contact .wave4 {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+#contact .playing4 .wave4:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+#contact .wave4:nth-child(2) {
+  animation-duration: 50s;
+}
+
+#contact .playing4 .wave4:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+#contact .wave4:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* card - 4 */
+
+
+
+.details-img{
+  filter: drop-shadow(0 0 3px black);
+  width: 200px;
+}
+
+#fruitsproduct .details-i {
+  z-index: -5;
+  color:#a5a5a574;
+}
+
+
+
+.loader {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  animation: loading-rotate 3s linear infinite;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.item:nth-of-type(1) {
+  background-color: #50DE68;
+  border-radius: 20px 20px 0 20px;
+  border-left: #ffffff 4px solid;
+  border-top: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(2) {
+  background-color: rgb(32, 80, 46);
+  border-radius: 20px 20px 20px 0;
+  border-right: #ffffff 4px solid;
+  border-top: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(3) {
+  background-color: rgb(0, 255, 55);
+  border-radius: 20px 0 20px 20px;
+  border-left: #ffffff 4px solid;
+  border-bottom: #f7f7f7 4px solid;
+}
+
+.item:nth-of-type(4) {
+  background-color: rgb(32, 182, 32);
+  border-radius: 0 20px 20px 20px;
+  border-right: #ffffff 4px solid;
+  border-bottom: #f7f7f7 4px solid;
+}
+
+@keyframes loading-rotate {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+
+  20% {
+    transform: scale(1) rotate(72deg);
+  }
+
+  40% {
+    transform: scale(0.5) rotate(144deg);
+  }
+
+  60% {
+    transform: scale(0.5) rotate(216deg);
+  }
+
+  80% {
+    transform: scale(1) rotate(288deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+.lod {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 99999999999;
+
+}
+
+/* .loading::-webkit-scrollbar {
+  display: none;
+} */
+
+footer {
+  background-color: #292b33;
+  color: #fff;
+}
+footer h3 {
+  font-size: 16px;
+  }
+
+.mounth-card .mo-body {
+border: 1px solid #198754 ;
+padding: 10px 0px;
+min-height: 62px;
+border-radius: 0px 0px 30px 0px ;
+}
+.mounth-card .mo-body img {
+  
+width: 30px;
+
+}
+
+.mounth-card .mo-head {
+  border-radius: 30px 0px 0px 0px ;
+}
+
+.mounth-card .mo-head p  {
+  font-weight: 600;
+  color: #fff;
+}
+
+.footer-h3 {
+  font-family: "Roboto", sans-serif; 
+}

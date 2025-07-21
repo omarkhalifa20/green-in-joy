@@ -1,0 +1,338 @@
+@media screen and (max-width: 560px) {
+    #about::after {
+        content: "";
+        
+        background-image: url(../img/branch1.webp);
+        width: 160px;
+        height: 160px;
+        background-size: cover;
+       
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      
+      #about::before {
+        content: "";
+        
+        background-image: url(../img/branch2.webp);
+        width: 180px;
+        height: 140px;
+        background-size: cover;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+    #product::after {
+        content: "";
+        
+        background-image: url(../img/branch1.webp);
+        width: 160px;
+        height: 160px;
+        background-size: cover;
+       
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      
+      #product::before {
+        content: "";
+        
+        background-image: url(../img/branch2.webp);
+        width: 180px;
+        height: 140px;
+        background-size: cover;
+       
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+}
+
+
+@media screen and (max-width: 395px) {
+    #about::after {
+        content: "";
+        
+        background-image: url(../img/branch1.webp);
+        width: 120px;
+        height: 120px;
+        background-size: cover;
+       
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      
+      #about::before {
+        content: "";
+        
+        background-image: url(../img/branch2.webp);
+        width: 120px;
+        height: 100px;
+        background-size: cover;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+    #product::after {
+        content: "";
+        
+        background-image: url(../img/branch1.webp);
+        width: 120px;
+        height: 120px;
+        background-size: cover;
+       
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      
+      #product::before {
+        content: "";
+        
+        background-image: url(../img/branch2.webp);
+        width: 120px;
+        height: 100px;
+        background-size: cover;
+       
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+}
+
+@media (max-width: 991.80px) {
+ .navbar-nav {
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    border: #027300 1px solid;
+    padding-bottom: 8px;
+    overflow: hidden;
+  }
+  nav li{
+    transition: 0.2s 0.1s all;
+  }
+  nav li:hover {
+  background-color: #cbcbcb;
+  border-radius: 15px;
+  transform: scale(1.1);
+  
+  }
+  #fruits .row {
+    margin-top: 0px; 
+}
+#fruits .head-fruits {
+  margin-bottom: 0px;
+}
+  
+}
+
+@media (max-width: 768px) {
+  #product .container, .container-sm {
+      max-width: none;
+  } 
+  #carouselExampleIndicators  .carousel-indicators{
+    bottom: -35px;
+  }
+  #carouselExampleIndicators2  .carousel-indicators{
+    bottom: -35px;
+  }
+  #fruits h3 {
+    font-size: 23px;
+  }
+  #vegetables h3 {
+    font-size: 23px;
+    
+  }
+  #vegetables {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+ 
+}
+
+
+@media (max-width: 524px) {
+  #fruits {
+    padding: 10px 10px 20px;
+    
+  }
+  /* fruits - product */
+  #fruits .row {
+    margin-top: 30px;
+  }
+
+#fruits .mango {
+  position: absolute;
+  top: -47px;
+  left: 21%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 110px;
+}
+#fruits .strwaberry img {
+  position: absolute;
+  top: -56px;
+  left: 31%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 75px;
+}
+#fruits .freezedstrwaberry img {
+  position: absolute;
+  top: -56px;
+  left: 31%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 75px;
+}
+#fruits .orange img {
+  position: absolute;
+  top: -55px;
+  left: 22%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 100px;
+}
+
+/* fruits - product */
+
+/* vegatables - product */
+
+#vegetables .row {
+  margin-top: 70px;
+}
+#vegetables .sweetpotatoes img {
+  position: absolute;
+  top: -57px;
+  left: 23%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 100px;
+}
+
+#vegetables .potato img {
+  position: absolute;
+  top: -50px;
+  left: 19%;
+  filter: drop-shadow(0 0 2.5px black);
+  width: 100px;
+}
+
+#vegetables  .redonion img {
+  position: absolute;
+  top: -70px;
+  left: 23%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 90px;
+}
+#vegetables  .brownonion img {
+  position: absolute;
+  top: -75px;
+  left: 22%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 90px;
+}
+
+#vegetables  .garlic img {
+  position: absolute;
+  top: -55px;
+  left: 23%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 90px;
+}
+
+#vegetables  .Pumpkin img {
+  position: absolute;
+  top: -55px;
+  left: 21%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 90px;
+}
+
+
+#vegetables  .ButternutPumpkin img {
+  position: absolute;
+  top: -55px;
+  left: 31%;
+  
+  filter: drop-shadow(0 0 2.5px black);
+  width: 60px;
+}
+
+
+.card-body .card-title {
+  margin-top: 40px;
+}
+  .card .card-body h4 {
+    font-size: 18px;
+  }
+  .card .card-body p {
+    font-size: 14px;
+  }
+  .card-body{
+    padding: 5px;
+    
+  }
+  
+
+  #services .card-body {
+    padding: 30px 10px;
+}
+.cssbuttons-io-button {
+  width: 50px;
+  height: 50px;
+}
+.contact-fixed {
+  bottom: 40px;
+    right: 30px;
+}
+
+.row .card-1 {
+  margin-bottom: 40px;
+}
+footer h3 {
+font-size: 12px;
+}
+
+#vegetablespro .col-6 {
+  margin-bottom: 40px;
+}
+
+#row-det .detal-col{
+  padding: 0 5px;
+}
+}
+
+@media screen and (max-width: 440px) {
+  #fruits .orange button {
+    margin-top: 20px;
+  }
+  #contact .e-card {
+    margin: 40px 0px 5px  auto;
+    
+  }
+
+  #contact .e-card3 {
+    margin: 40px 0px 5px  auto;
+  }
+  #contact .e-card2 {
+    margin: 40px 0px 5px  auto;
+  }
+}
+
+
+@media screen and (max-width: 384px) {
+  .card .card-body p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+}
